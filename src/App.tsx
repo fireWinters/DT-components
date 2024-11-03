@@ -5,11 +5,12 @@
  * @Description: some description
  * @FilePath: /DT-components/src/App.tsx
  */
+import React from 'react';
 function App() {
     return (
       
         <div className="App">
-         
+         这是入口危机
         </div>
      
     );
