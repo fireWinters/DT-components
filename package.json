@@ -1,16 +1,21 @@
 {
   "dependencies": {
+    "@mui/material": "^6.1.6",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3"
   },
   "name": "dt-components",
   "description": "前端React组件库,欢迎fork",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15"
+  }
 }
