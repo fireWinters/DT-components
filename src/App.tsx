@@ -6,10 +6,11 @@
  * @FilePath: /DT-components/src/App.tsx
  */
 import React from 'react';
+import './App.css'
 function App() {
     return (
       
-        <div className="App">
+        <div className="text-3xl font-bold underline App w-[140px]">
          这是入口危机
         </div>
      
