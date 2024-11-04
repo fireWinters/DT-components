@@ -6,10 +6,12 @@
  * @FilePath: /DT-components/tailwind.config.js
  */
 /** @type {import('tailwindcss').Config} */
-const typegraphy=require('@tailwindcss/typography')
+const typography=require('@tailwindcss/typography')
 module.exports = {
-  content: ['./src/**/*.tsx', './src/**/*.html', './public/index.html'],
+  content: ['./src/**/*.tsx', './src/**/*.html', './public/index.html','./src/**/*.{js,jsx,ts,tsx,mdx}'],
   important: '#root',
+   // Toggle dark-mode based on .dark class or data-mode="dark"
+  darkMode: ['class', '[data-mode="dark"]'],
   theme: {
     extend: {},
   },
